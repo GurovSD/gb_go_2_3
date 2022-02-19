@@ -13,6 +13,7 @@ func SaySuperHello(amount int) {
 
 	for _ = range make([]int, amount) {
 		SayHello()
+
 	}
 
 }
